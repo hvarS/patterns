@@ -1,10 +1,10 @@
-package creational.abstractFactory.PizzaStores;
+package creational.factory.PizzaStores;
 
-import creational.abstractFactory.Pizzas.NYStyleCheesePizza;
-import creational.abstractFactory.Pizzas.NYStyleClamPizza;
-import creational.abstractFactory.Pizzas.NYStylePepperoniPizza;
-import creational.abstractFactory.Pizzas.NYStyleVeggiePizza;
-import creational.abstractFactory.Pizzas.Pizza;
+import creational.factory.Pizzas.NYStyleCheesePizza;
+import creational.factory.Pizzas.NYStyleClamPizza;
+import creational.factory.Pizzas.NYStylePepperoniPizza;
+import creational.factory.Pizzas.NYStyleVeggiePizza;
+import creational.factory.Pizzas.Pizza;
 
 public class NYPizzaStore extends PizzaStore {
     Pizza createPizza(String type)  {

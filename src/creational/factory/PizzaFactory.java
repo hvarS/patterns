@@ -1,8 +1,8 @@
-package creational.abstractFactory;
+package creational.factory;
 
-import creational.abstractFactory.Pizzas.CheesePizza;
-import creational.abstractFactory.Pizzas.PepperoniPizza;
-import creational.abstractFactory.Pizzas.Pizza;
+import creational.factory.Pizzas.CheesePizza;
+import creational.factory.Pizzas.PepperoniPizza;
+import creational.factory.Pizzas.Pizza;
 
 public class PizzaFactory {
     public PizzaFactory() {

@@ -1,4 +1,4 @@
-package creational.abstractFactory.Pizzas;
+package creational.factory.Pizzas;
 
 public class CheesePizza extends Pizza {
     

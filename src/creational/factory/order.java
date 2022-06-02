@@ -1,7 +1,7 @@
-package creational.abstractFactory;
+package creational.factory;
 
-import creational.abstractFactory.PizzaStores.NYPizzaStore;
-import creational.abstractFactory.PizzaStores.PizzaStore;
+import creational.factory.PizzaStores.NYPizzaStore;
+import creational.factory.PizzaStores.PizzaStore;
 
 
 public class order {

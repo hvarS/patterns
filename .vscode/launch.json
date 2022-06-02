@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Singleton",
+            "request": "launch",
+            "mainClass": "creational.singleton.Singleton",
+            "projectName": "patterns_4a1dea2a"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingletonEager",
+            "request": "launch",
+            "mainClass": "creational.singleton.SingletonEager",
+            "projectName": "patterns_4a1dea2a"
+        },
+        {
+            "type": "java",
+            "name": "Launch order",
+            "request": "launch",
+            "mainClass": "creational.factory.order",
+            "projectName": "patterns_4a1dea2a"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

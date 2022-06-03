@@ -7,7 +7,14 @@ public class Mocha extends Decorator{
 
     @Override
     public double cost() {
-        return this.beverage.cost()+19.99;
+        double bevCost = this.beverage.cost();
+        if(this.beverage.getSize() == Size.TALL) {
+            return bevCost+19.99;
+        } else if(this.beverage.getSize() == Size.GRANDE) {
+            return bevCost+29.99;
+        } else {
+            return bevCost+39.99;
+        }
     }
 
     @Override
